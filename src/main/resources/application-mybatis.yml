@@ -1,0 +1,5 @@
+mybatis:
+  mapperLocations: classpath:mappings/**/*.xml
+  configuration:
+    callSettersOnNulls: true
+    mapUnderscoreToCamelCase: true
